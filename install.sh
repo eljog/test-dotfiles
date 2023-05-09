@@ -3,6 +3,6 @@
 date >> ~/dotfiles_status
 echo "(dotfiles) starting ..." >> ~/dotfiles_status
 
-touch /tmp/.dotfilesMarker
+printenv > /tmp/.dotfilesMarker
 
 echo "(dotfiles) finished" >> ~/dotfiles_status
